@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing the diff helped by pointing out only the changes that were
+    made. That way, I could focus on only code that might have
+    contained the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having the entire history of a file could help for restoring from
+    a backup in case you broke things in a more recent commit.
+
+    It might also help in trying to narrow down when a bug was
+    introduced. You could do binary search between commits to find the
+    commit when a bug was introduced.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    If you forget to commit, or if you wait too long to commit, then
+    you may lose valuable history when you finally do commit a
+    feature. However, manually saving has the benefit of allowing you
+    to figure out how big a feature really is, so your history ends up
+    being more meaningful.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In systems like Google Docs, you're typically working only on a
+    single document at a time. When you're programming though, you
+    usually work across files, simultaneously making changes across
+    all of them before a single feature is complete.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use git log to view all the commits in a repository. You
+    can then find two commits you're interested in, get the commit IDs
+    for those commits, and then use `git diff <commit1> <commit2>` to
+    view the diff between those commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    As long as you have a commit history, then you can safely work on
+    features, making commits along the way, and be sure that if you
+    introduce a bug that you can always revert to a previous good commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Any project that I'm working on!
