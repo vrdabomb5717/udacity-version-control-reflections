@@ -23,7 +23,16 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+      Branches might be helpful if multiple people are working on
+      features on a code base all at once. Each feature could be its
+      own branch, and features that don't pan out will not get merged
+      back into master.
+
 How do the diagrams help you visualize the branch structure?
+
+      Diagrams help by providing an easy way to see all the branches
+      that you're interested in, as well as what commits are on each
+      branch (and what commits are missing as well.)
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
