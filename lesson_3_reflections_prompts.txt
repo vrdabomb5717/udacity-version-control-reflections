@@ -1,5 +1,5 @@
-When would you want to use a remote repository rather than keeping all your work
-local?
+When would you want to use a remote repository rather than keeping all
+your work local?
 
     You should use a remote repository when you want to share
     your work with other people or you want to make sure that
@@ -13,10 +13,13 @@ automatically stay up-to-date with your remote repository?
     trying to fix a bug. That way, you can make sure that only the
     code that you are currently working on is tested and operated on.
 
-Describe the differences between forks, clones, and branches.  When would you
+Describe the differences between forks, clones, and branches. When would you
 use one instead of another?
 
-    Fill in your answer here
+    Branches only happen on a single repository. Cloning a repository
+    creates a second, entirely new repository with the same content.
+    Forks are a Github feature. They let you create a clone of one
+    repository to another.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
