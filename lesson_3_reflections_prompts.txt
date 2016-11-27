@@ -37,7 +37,14 @@ and what would be harder?
     forth with the new files. This would lose all change history and
     wouldn't be nearly as easy to work on with other people.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than
+directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You would want to make changes in a separate branch if you are
+    working on an experimental feature or bug fix. Alternatively, you
+    would do this if you wanted to make a pull request for a
+    repository that you were working on. This lets you review the code
+    that will get merged in first. The benefit of working on master
+    directly is that you can make changes without needing more
+    complicated git features, but this is really only useful if you
+    are working by yourself.
